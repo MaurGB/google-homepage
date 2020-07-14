@@ -2,6 +2,8 @@ html {
     background-color: white;
 }
 
+@import url(//fonts.googleapis.com/css?family=Roboto);
+
 div.logo {
     width: 272px;
     margin:auto;
@@ -15,9 +17,9 @@ div.form {
     margin: auto;
 }
 
-.form:hover{box-shadow: 0px 0px 10px -2px #8E9E9D;}
+.input:hover{box-shadow: 0px 0px 10px -2px #8E9E9D;}
 
-input {
+input#dentro {
     border: none;
     height: 35px;
     width: 430px;
@@ -25,4 +27,16 @@ input {
     position: relative;
     left: 42px;
     top: 4px;
+}
+input#mar {margin: 30px;}
+input.boton {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 10px 20px;
+
+}
+
+li {
+    display: inline;
 }
