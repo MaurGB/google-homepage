@@ -5,26 +5,71 @@
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <ul>
-        <li><a href="#gmail">Gmail</a></li>
-        <li><a href="#Imagenes">Imagenes</a></li>
-        <li><a href="#myapps"><img src="apps-icon.svg"></a></li>
-        <li><a href="#profile"><button>Iniciar sesion</button></a></li>
-    </ul>
-</header>
+
 <body>
-    <div class="logo">
-        <img alt="Google logo" src="googlelogo.png">
+    <div class="upper">
+        <div class="container">
+            <div class="left">
+                <div class="gmail">
+                    <a href="#gmail" id="glink">Gmail</a>
+                </div>
+                <div class="imagenes">
+                    <a href="#imagenes" id="ilink">Imagenes</a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="apps">
+                    <a href="#apps" id="alink"><img src="apps-icon.svg" id="app-icon"></a>
+
+                </div>
+                <div class="login">
+                    <a href="#login" id="llink"><button id="li">Iniciar sesion</button></a>
+
+                </div>
+
+            </div>
+        </div>
+
     </div>
-    <div class="form">
-        <form>
-            <input type="text" id="dentro">
-            <input type="submit" value="Buscar con Google" id="mar" class="boton">
-            <input type="submit" value="Me siento con suerte" class="boton">
+    <div class="body">
+        <div class="logo">
+            <img src="googlelogo.png" alt="Google logo">
+        </div>
+        <div class="search">
+            <form class="form">
+                <div class="lupa"><img src="lupa.png" alt="lupa" id></div>
+                <input type="text" id="sea">
+            </form>
+        </div>
+        <div class="buttons">
+            <div class="container2">
+            <input type="submit" class="but" value="Buscar con Google"> <input type="submit" class="but" value="Me siento con suerte">
+            </div>
+        </div>
+        <div class="lang">
+            <div class="tex">
+                <p>Ofrecido por Google en:      <a href="#english" id="az">English</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f1">
+            <p>Mexico</p>
+        </div>
+        <div class="f2">
+            <div class="uno">
+                <div class="l"><a href="#link">Publicidad</a></div>
+                <div class="l"><a href="#link">Negocios</a></div>
+                <div class="l"><a href="#link">Sobre Google</a></div>
+                <div class="l"><a href="#link">Como funciona la Busqueda</a></div>
+            </div>
+            <div class="dos">
+                <div class="l"><a href="#link">Privacidad</a></div>
+                <div class="l"><a href="#link">Condiciones</a></div>
+                <div class="l"><a href="#link">Preferencias</a></div>
+            </div>
+        </div>
 
-
-        </form>
     </div>
 </body>
 
